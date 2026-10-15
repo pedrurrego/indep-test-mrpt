@@ -1,0 +1,35 @@
+{
+  "test": "QAD",
+  "generator": "dep-spiral-2-turns",
+  "alpha": 0.05,
+  "R": 1000,
+  "B": 2000,
+  "seed": 1234,
+  "results": [
+    {
+      "n": 20,
+      "rejection_rate": 0.043,
+      "elapsed_seconds": 0.54
+    },
+    {
+      "n": 50,
+      "rejection_rate": 0.162,
+      "elapsed_seconds": 0.56
+    },
+    {
+      "n": 100,
+      "rejection_rate": 0.487,
+      "elapsed_seconds": 0.67
+    },
+    {
+      "n": 200,
+      "rejection_rate": 0.989,
+      "elapsed_seconds": 0.73
+    },
+    {
+      "n": 500,
+      "rejection_rate": 1.0,
+      "elapsed_seconds": 1.07
+    }
+  ]
+}

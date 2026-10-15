@@ -1,0 +1,35 @@
+{
+  "test": "Heller-ADP-LR-MinP",
+  "generator": "indep-normal",
+  "alpha": 0.05,
+  "R": 1000,
+  "B": 2000,
+  "seed": 1234,
+  "results": [
+    {
+      "n": 20,
+      "rejection_rate": 0.049,
+      "elapsed_seconds": 0.41
+    },
+    {
+      "n": 50,
+      "rejection_rate": 0.054,
+      "elapsed_seconds": 140.3
+    },
+    {
+      "n": 100,
+      "rejection_rate": 0.053,
+      "elapsed_seconds": 411.16
+    },
+    {
+      "n": 200,
+      "rejection_rate": 0.063,
+      "elapsed_seconds": 479.17
+    },
+    {
+      "n": 500,
+      "rejection_rate": 0.043,
+      "elapsed_seconds": 595.35
+    }
+  ]
+}

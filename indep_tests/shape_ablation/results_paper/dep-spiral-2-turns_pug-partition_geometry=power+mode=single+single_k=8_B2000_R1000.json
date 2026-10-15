@@ -1,0 +1,35 @@
+{
+  "test": "PUG-Partition-power-k8",
+  "generator": "dep-spiral-2-turns",
+  "alpha": 0.05,
+  "R": 1000,
+  "B": 2000,
+  "seed": 1234,
+  "results": [
+    {
+      "n": 20,
+      "rejection_rate": 0.09,
+      "elapsed_seconds": 2.03
+    },
+    {
+      "n": 50,
+      "rejection_rate": 0.465,
+      "elapsed_seconds": 3.55
+    },
+    {
+      "n": 100,
+      "rejection_rate": 0.957,
+      "elapsed_seconds": 5.64
+    },
+    {
+      "n": 200,
+      "rejection_rate": 1.0,
+      "elapsed_seconds": 11.33
+    },
+    {
+      "n": 500,
+      "rejection_rate": 1.0,
+      "elapsed_seconds": 26.26
+    }
+  ]
+}

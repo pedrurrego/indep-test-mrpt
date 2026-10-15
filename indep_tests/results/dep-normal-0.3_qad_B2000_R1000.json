@@ -1,0 +1,35 @@
+{
+  "test": "QAD",
+  "generator": "dep-normal-0.3",
+  "alpha": 0.05,
+  "R": 1000,
+  "B": 2000,
+  "seed": 1234,
+  "results": [
+    {
+      "n": 20,
+      "rejection_rate": 0.098,
+      "elapsed_seconds": 0.49
+    },
+    {
+      "n": 50,
+      "rejection_rate": 0.236,
+      "elapsed_seconds": 0.49
+    },
+    {
+      "n": 100,
+      "rejection_rate": 0.381,
+      "elapsed_seconds": 0.52
+    },
+    {
+      "n": 200,
+      "rejection_rate": 0.704,
+      "elapsed_seconds": 0.59
+    },
+    {
+      "n": 500,
+      "rejection_rate": 0.993,
+      "elapsed_seconds": 0.86
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "test": "Cmiel-Ledwina-Tn",
+  "generator": "indep-uniform",
+  "alpha": 0.05,
+  "R": 1000,
+  "B": 2000,
+  "seed": 1234,
+  "results": [
+    {
+      "n": 20,
+      "rejection_rate": 0.034,
+      "elapsed_seconds": 0.07
+    },
+    {
+      "n": 50,
+      "rejection_rate": 0.059,
+      "elapsed_seconds": 0.1
+    },
+    {
+      "n": 100,
+      "rejection_rate": 0.047,
+      "elapsed_seconds": 0.17
+    },
+    {
+      "n": 200,
+      "rejection_rate": 0.058,
+      "elapsed_seconds": 0.46
+    },
+    {
+      "n": 500,
+      "rejection_rate": 0.068,
+      "elapsed_seconds": 1.93
+    }
+  ]
+}

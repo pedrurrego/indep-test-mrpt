@@ -1,0 +1,35 @@
+{
+  "test": "Cmiel-Ledwina-Tn",
+  "generator": "dep-spiral-2-turns",
+  "alpha": 0.05,
+  "R": 1000,
+  "B": 2000,
+  "seed": 1234,
+  "results": [
+    {
+      "n": 20,
+      "rejection_rate": 0.061,
+      "elapsed_seconds": 0.08
+    },
+    {
+      "n": 50,
+      "rejection_rate": 0.143,
+      "elapsed_seconds": 0.11
+    },
+    {
+      "n": 100,
+      "rejection_rate": 0.324,
+      "elapsed_seconds": 0.22
+    },
+    {
+      "n": 200,
+      "rejection_rate": 0.767,
+      "elapsed_seconds": 0.57
+    },
+    {
+      "n": 500,
+      "rejection_rate": 1.0,
+      "elapsed_seconds": 2.79
+    }
+  ]
+}

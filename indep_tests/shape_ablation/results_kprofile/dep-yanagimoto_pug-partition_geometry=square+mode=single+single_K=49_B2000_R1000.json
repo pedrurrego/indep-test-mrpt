@@ -1,0 +1,20 @@
+{
+  "test": "PUG-Partition-square-K49",
+  "generator": "dep-yanagimoto",
+  "alpha": 0.05,
+  "R": 1000,
+  "B": 2000,
+  "seed": 1234,
+  "results": [
+    {
+      "n": 200,
+      "rejection_rate": 0.85,
+      "elapsed_seconds": 15.08
+    },
+    {
+      "n": 500,
+      "rejection_rate": 1.0,
+      "elapsed_seconds": 38.86
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "test": "QAD",
+  "generator": "indep-uniform",
+  "alpha": 0.05,
+  "R": 1000,
+  "B": 2000,
+  "seed": 1234,
+  "results": [
+    {
+      "n": 20,
+      "rejection_rate": 0.045,
+      "elapsed_seconds": 0.41
+    },
+    {
+      "n": 50,
+      "rejection_rate": 0.032,
+      "elapsed_seconds": 0.42
+    },
+    {
+      "n": 100,
+      "rejection_rate": 0.044,
+      "elapsed_seconds": 0.45
+    },
+    {
+      "n": 200,
+      "rejection_rate": 0.04,
+      "elapsed_seconds": 0.54
+    },
+    {
+      "n": 500,
+      "rejection_rate": 0.038,
+      "elapsed_seconds": 0.77
+    }
+  ]
+}

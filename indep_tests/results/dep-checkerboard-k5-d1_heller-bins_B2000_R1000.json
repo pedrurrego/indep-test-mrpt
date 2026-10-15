@@ -1,0 +1,35 @@
+{
+  "test": "Heller-ADP-LR-MinP",
+  "generator": "dep-checkerboard-k5-d1",
+  "alpha": 0.05,
+  "R": 1000,
+  "B": 2000,
+  "seed": 1234,
+  "results": [
+    {
+      "n": 20,
+      "rejection_rate": 0.075,
+      "elapsed_seconds": 0.6
+    },
+    {
+      "n": 50,
+      "rejection_rate": 0.093,
+      "elapsed_seconds": 147.83
+    },
+    {
+      "n": 100,
+      "rejection_rate": 0.394,
+      "elapsed_seconds": 434.24
+    },
+    {
+      "n": 200,
+      "rejection_rate": 1.0,
+      "elapsed_seconds": 493.86
+    },
+    {
+      "n": 500,
+      "rejection_rate": 1.0,
+      "elapsed_seconds": 614.2
+    }
+  ]
+}

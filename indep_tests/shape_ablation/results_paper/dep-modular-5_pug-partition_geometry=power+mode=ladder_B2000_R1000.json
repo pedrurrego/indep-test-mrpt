@@ -1,0 +1,35 @@
+{
+  "test": "PUG-Partition-power-MULTI",
+  "generator": "dep-modular-5",
+  "alpha": 0.05,
+  "R": 1000,
+  "B": 2000,
+  "seed": 1234,
+  "results": [
+    {
+      "n": 20,
+      "rejection_rate": 0.115,
+      "elapsed_seconds": 1.58
+    },
+    {
+      "n": 50,
+      "rejection_rate": 0.453,
+      "elapsed_seconds": 4.94
+    },
+    {
+      "n": 100,
+      "rejection_rate": 1.0,
+      "elapsed_seconds": 14.21
+    },
+    {
+      "n": 200,
+      "rejection_rate": 1.0,
+      "elapsed_seconds": 31.99
+    },
+    {
+      "n": 500,
+      "rejection_rate": 1.0,
+      "elapsed_seconds": 94.51
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "test": "Cmiel-Ledwina-Tn",
+  "generator": "dep-checkerboard-k5-d1",
+  "alpha": 0.05,
+  "R": 1000,
+  "B": 2000,
+  "seed": 1234,
+  "results": [
+    {
+      "n": 20,
+      "rejection_rate": 0.075,
+      "elapsed_seconds": 0.11
+    },
+    {
+      "n": 50,
+      "rejection_rate": 0.115,
+      "elapsed_seconds": 0.14
+    },
+    {
+      "n": 100,
+      "rejection_rate": 0.174,
+      "elapsed_seconds": 0.27
+    },
+    {
+      "n": 200,
+      "rejection_rate": 0.383,
+      "elapsed_seconds": 0.53
+    },
+    {
+      "n": 500,
+      "rejection_rate": 0.871,
+      "elapsed_seconds": 2.17
+    }
+  ]
+}

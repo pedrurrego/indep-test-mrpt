@@ -1,0 +1,35 @@
+{
+  "test": "PUG-Partition-square-MULTI",
+  "generator": "dep-checkerboard-k5-d1",
+  "alpha": 0.05,
+  "R": 1000,
+  "B": 2000,
+  "seed": 1234,
+  "results": [
+    {
+      "n": 20,
+      "rejection_rate": 0.046,
+      "elapsed_seconds": 1.53
+    },
+    {
+      "n": 50,
+      "rejection_rate": 0.282,
+      "elapsed_seconds": 5.11
+    },
+    {
+      "n": 100,
+      "rejection_rate": 0.918,
+      "elapsed_seconds": 14.53
+    },
+    {
+      "n": 200,
+      "rejection_rate": 1.0,
+      "elapsed_seconds": 32.26
+    },
+    {
+      "n": 500,
+      "rejection_rate": 1.0,
+      "elapsed_seconds": 86.4
+    }
+  ]
+}

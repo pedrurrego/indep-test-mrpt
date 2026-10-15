@@ -1,0 +1,35 @@
+{
+  "test": "PUG-Partition-golden-k8",
+  "generator": "dep-yanagimoto",
+  "alpha": 0.05,
+  "R": 1000,
+  "B": 2000,
+  "seed": 1234,
+  "results": [
+    {
+      "n": 20,
+      "rejection_rate": 0.084,
+      "elapsed_seconds": 1.78
+    },
+    {
+      "n": 50,
+      "rejection_rate": 0.18,
+      "elapsed_seconds": 2.81
+    },
+    {
+      "n": 100,
+      "rejection_rate": 0.514,
+      "elapsed_seconds": 5.2
+    },
+    {
+      "n": 200,
+      "rejection_rate": 0.921,
+      "elapsed_seconds": 10.25
+    },
+    {
+      "n": 500,
+      "rejection_rate": 1.0,
+      "elapsed_seconds": 25.35
+    }
+  ]
+}

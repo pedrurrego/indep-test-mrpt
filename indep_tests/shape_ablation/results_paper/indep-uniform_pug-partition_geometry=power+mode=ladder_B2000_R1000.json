@@ -1,0 +1,35 @@
+{
+  "test": "PUG-Partition-power-MULTI",
+  "generator": "indep-uniform",
+  "alpha": 0.05,
+  "R": 1000,
+  "B": 2000,
+  "seed": 1234,
+  "results": [
+    {
+      "n": 20,
+      "rejection_rate": 0.045,
+      "elapsed_seconds": 1.59
+    },
+    {
+      "n": 50,
+      "rejection_rate": 0.04,
+      "elapsed_seconds": 4.64
+    },
+    {
+      "n": 100,
+      "rejection_rate": 0.051,
+      "elapsed_seconds": 15.68
+    },
+    {
+      "n": 200,
+      "rejection_rate": 0.043,
+      "elapsed_seconds": 32.46
+    },
+    {
+      "n": 500,
+      "rejection_rate": 0.048,
+      "elapsed_seconds": 88.62
+    }
+  ]
+}

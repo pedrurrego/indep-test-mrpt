@@ -1,0 +1,35 @@
+{
+  "test": "PUG-Partition-power-k8",
+  "generator": "indep-uniform",
+  "alpha": 0.05,
+  "R": 1000,
+  "B": 2000,
+  "seed": 1234,
+  "results": [
+    {
+      "n": 20,
+      "rejection_rate": 0.054,
+      "elapsed_seconds": 1.68
+    },
+    {
+      "n": 50,
+      "rejection_rate": 0.041,
+      "elapsed_seconds": 3.19
+    },
+    {
+      "n": 100,
+      "rejection_rate": 0.046,
+      "elapsed_seconds": 6.1
+    },
+    {
+      "n": 200,
+      "rejection_rate": 0.05,
+      "elapsed_seconds": 11.61
+    },
+    {
+      "n": 500,
+      "rejection_rate": 0.051,
+      "elapsed_seconds": 23.46
+    }
+  ]
+}

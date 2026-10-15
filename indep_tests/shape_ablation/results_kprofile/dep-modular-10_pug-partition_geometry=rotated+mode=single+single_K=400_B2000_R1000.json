@@ -1,0 +1,15 @@
+{
+  "test": "PUG-Partition-rotated-K400",
+  "generator": "dep-modular-10",
+  "alpha": 0.05,
+  "R": 1000,
+  "B": 2000,
+  "seed": 1234,
+  "results": [
+    {
+      "n": 500,
+      "rejection_rate": 1.0,
+      "elapsed_seconds": 28.56
+    }
+  ]
+}

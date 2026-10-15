@@ -1,0 +1,35 @@
+{
+  "test": "PUG-Partition-golden-k8",
+  "generator": "dep-spiral-3-turns",
+  "alpha": 0.05,
+  "R": 1000,
+  "B": 2000,
+  "seed": 1234,
+  "results": [
+    {
+      "n": 20,
+      "rejection_rate": 0.066,
+      "elapsed_seconds": 1.97
+    },
+    {
+      "n": 50,
+      "rejection_rate": 0.179,
+      "elapsed_seconds": 3.21
+    },
+    {
+      "n": 100,
+      "rejection_rate": 0.496,
+      "elapsed_seconds": 5.39
+    },
+    {
+      "n": 200,
+      "rejection_rate": 0.945,
+      "elapsed_seconds": 10.29
+    },
+    {
+      "n": 500,
+      "rejection_rate": 1.0,
+      "elapsed_seconds": 25.74
+    }
+  ]
+}

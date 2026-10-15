@@ -1,0 +1,245 @@
+{
+ "meta": {
+  "B": 2000,
+  "cap_seconds": 3600.0,
+  "warm_fill_cap_seconds": 900.0,
+  "repeat_budget_seconds": 60.0,
+  "max_predicted_seconds": 14400.0,
+  "sample_sizes": [
+   50,
+   100,
+   200,
+   500,
+   1000,
+   2000,
+   4000,
+   10000
+  ],
+  "stat_repeats": 5,
+  "call_repeats": 3,
+  "seed": 0,
+  "skipped": [],
+  "no_warm": true,
+  "started": "2026-09-28T00:39:40+00:00",
+  "git": "dce7aab5",
+  "machine": {
+   "cpu": "Apple M1 Pro",
+   "platform": "macOS-26.7-arm64-arm-64bit",
+   "python": "3.12.7",
+   "numpy": "2.2.4",
+   "scipy": "1.15.2",
+   "blas": "accelerate",
+   "threads": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1"
+   }
+  },
+  "test": "Cmiel-Ledwina-Tn",
+  "class": "CmielLedwinaTest",
+  "params": {
+   "class": "CmielLedwinaTest",
+   "d": null,
+   "s": null,
+   "t": null,
+   "randomize_ties": true,
+   "cache_null": false
+  },
+  "warm_params": null,
+  "reruns": [
+   {
+    "started": "2026-09-27T19:02:54+00:00",
+    "git": "dce7aab5",
+    "sample_sizes": [
+     50,
+     100,
+     200,
+     500,
+     1000,
+     2000,
+     4000
+    ]
+   }
+  ],
+  "extended": {
+   "started": "2026-09-28T00:39:40+00:00",
+   "sample_sizes": [
+    10000
+   ]
+  }
+ },
+ "rows": [
+  {
+   "test": "Cmiel-Ledwina-Tn",
+   "n": 50,
+   "stat_seconds": 9.116699948208407e-05,
+   "call_seconds": 0.04047070899832761,
+   "stat_seconds_all": [
+    0.0020284170022932813,
+    0.00013250000483822078,
+    6.237499474082142e-05,
+    9.116699948208407e-05,
+    7.699999696342275e-05
+   ],
+   "call_seconds_all": [
+    0.04357387499476317,
+    0.04047070899832761,
+    0.039007833001960535
+   ],
+   "censored_after": false,
+   "warm_seconds": null,
+   "warm_seconds_all": [],
+   "warm_fill_seconds": null
+  },
+  {
+   "test": "Cmiel-Ledwina-Tn",
+   "n": 100,
+   "stat_seconds": 8.366600377485156e-05,
+   "call_seconds": 0.08974779100390151,
+   "stat_seconds_all": [
+    0.0007957499983604066,
+    0.00011341700155753642,
+    8.24169983388856e-05,
+    8.366600377485156e-05,
+    7.695900421822444e-05
+   ],
+   "call_seconds_all": [
+    0.0923565840057563,
+    0.08889016699686181,
+    0.08974779100390151
+   ],
+   "censored_after": false,
+   "warm_seconds": null,
+   "warm_seconds_all": [],
+   "warm_fill_seconds": null
+  },
+  {
+   "test": "Cmiel-Ledwina-Tn",
+   "n": 200,
+   "stat_seconds": 0.00022108400298748165,
+   "call_seconds": 0.2728095420025056,
+   "stat_seconds_all": [
+    0.0004412080015754327,
+    0.00022108400298748165,
+    0.00020812499860767275,
+    0.0002576670012786053,
+    0.0002026250003837049
+   ],
+   "call_seconds_all": [
+    0.2728095420025056,
+    0.2734665839961963,
+    0.2719597920004162
+   ],
+   "censored_after": false,
+   "warm_seconds": null,
+   "warm_seconds_all": [],
+   "warm_fill_seconds": null
+  },
+  {
+   "test": "Cmiel-Ledwina-Tn",
+   "n": 500,
+   "stat_seconds": 0.0007212920027086511,
+   "call_seconds": 1.2644697089999681,
+   "stat_seconds_all": [
+    0.0011209579970454797,
+    0.0007298339987755753,
+    0.0007122499955585226,
+    0.0007074579989421181,
+    0.0007212920027086511
+   ],
+   "call_seconds_all": [
+    1.2644697089999681,
+    1.31126958400273,
+    1.2205184170015855
+   ],
+   "censored_after": false,
+   "warm_seconds": null,
+   "warm_seconds_all": [],
+   "warm_fill_seconds": null
+  },
+  {
+   "test": "Cmiel-Ledwina-Tn",
+   "n": 1000,
+   "stat_seconds": 0.003257707998272963,
+   "call_seconds": 6.0337617920013145,
+   "stat_seconds_all": [
+    0.004827500000828877,
+    0.003257707998272963,
+    0.003223833002266474,
+    0.0031797079936950468,
+    0.003314207999210339
+   ],
+   "call_seconds_all": [
+    6.168360875002691,
+    6.0337617920013145,
+    5.97026766599447
+   ],
+   "censored_after": false,
+   "warm_seconds": null,
+   "warm_seconds_all": [],
+   "warm_fill_seconds": null
+  },
+  {
+   "test": "Cmiel-Ledwina-Tn",
+   "n": 2000,
+   "stat_seconds": 0.01610729200183414,
+   "call_seconds": 30.786572895998688,
+   "stat_seconds_all": [
+    0.02321779100020649,
+    0.016887792000488844,
+    0.01601320800546091,
+    0.01610729200183414,
+    0.015813416001037695
+   ],
+   "call_seconds_all": [
+    30.773220957999,
+    30.799924833998375
+   ],
+   "censored_after": false,
+   "warm_seconds": null,
+   "warm_seconds_all": [],
+   "warm_fill_seconds": null
+  },
+  {
+   "test": "Cmiel-Ledwina-Tn",
+   "n": 4000,
+   "stat_seconds": 0.08900529200036544,
+   "call_seconds": 168.390395041999,
+   "stat_seconds_all": [
+    0.17097062500397442,
+    0.09063833300024271,
+    0.08800562500255182,
+    0.08900529200036544,
+    0.0889233750058338
+   ],
+   "call_seconds_all": [
+    168.390395041999
+   ],
+   "censored_after": false,
+   "warm_seconds": null,
+   "warm_seconds_all": [],
+   "warm_fill_seconds": null
+  },
+  {
+   "test": "Cmiel-Ledwina-Tn",
+   "n": 10000,
+   "stat_seconds": 2.877215291009634,
+   "call_seconds": 5965.296543832999,
+   "stat_seconds_all": [
+    3.3377076249889797,
+    2.8344348749960773,
+    2.6754376659955597,
+    2.877215291009634,
+    3.0879148749954766
+   ],
+   "call_seconds_all": [
+    5965.296543832999
+   ],
+   "censored_after": true,
+   "warm_seconds": null,
+   "warm_seconds_all": [],
+   "warm_fill_seconds": null
+  }
+ ]
+}

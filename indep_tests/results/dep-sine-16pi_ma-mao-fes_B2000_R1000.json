@@ -1,0 +1,35 @@
+{
+  "test": "Ma-Mao-FES",
+  "generator": "dep-sine-16pi",
+  "alpha": 0.05,
+  "R": 1000,
+  "B": 2000,
+  "seed": 1234,
+  "results": [
+    {
+      "n": 20,
+      "rejection_rate": 0.0,
+      "elapsed_seconds": 51.02
+    },
+    {
+      "n": 50,
+      "rejection_rate": 0.03,
+      "elapsed_seconds": 51.2
+    },
+    {
+      "n": 100,
+      "rejection_rate": 0.041,
+      "elapsed_seconds": 52.52
+    },
+    {
+      "n": 200,
+      "rejection_rate": 0.057,
+      "elapsed_seconds": 57.28
+    },
+    {
+      "n": 500,
+      "rejection_rate": 0.999,
+      "elapsed_seconds": 82.22
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "test": "PUG-Partition-power-k8",
+  "generator": "dep-sine-4pi",
+  "alpha": 0.05,
+  "R": 1000,
+  "B": 2000,
+  "seed": 1234,
+  "results": [
+    {
+      "n": 20,
+      "rejection_rate": 0.124,
+      "elapsed_seconds": 1.86
+    },
+    {
+      "n": 50,
+      "rejection_rate": 0.592,
+      "elapsed_seconds": 3.42
+    },
+    {
+      "n": 100,
+      "rejection_rate": 0.99,
+      "elapsed_seconds": 6.13
+    },
+    {
+      "n": 200,
+      "rejection_rate": 1.0,
+      "elapsed_seconds": 10.72
+    },
+    {
+      "n": 500,
+      "rejection_rate": 1.0,
+      "elapsed_seconds": 25.82
+    }
+  ]
+}

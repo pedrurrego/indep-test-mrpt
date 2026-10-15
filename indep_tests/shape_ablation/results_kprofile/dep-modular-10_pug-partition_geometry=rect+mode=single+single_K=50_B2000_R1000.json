@@ -1,0 +1,20 @@
+{
+  "test": "PUG-Partition-rect-K50",
+  "generator": "dep-modular-10",
+  "alpha": 0.05,
+  "R": 1000,
+  "B": 2000,
+  "seed": 1234,
+  "results": [
+    {
+      "n": 200,
+      "rejection_rate": 0.166,
+      "elapsed_seconds": 15.9
+    },
+    {
+      "n": 500,
+      "rejection_rate": 0.365,
+      "elapsed_seconds": 38.4
+    }
+  ]
+}

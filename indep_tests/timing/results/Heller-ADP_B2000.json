@@ -1,0 +1,236 @@
+{
+ "meta": {
+  "B": 2000,
+  "cap_seconds": 3600.0,
+  "warm_fill_cap_seconds": 900.0,
+  "repeat_budget_seconds": 60.0,
+  "max_predicted_seconds": 14400.0,
+  "sample_sizes": [
+   50,
+   100,
+   200,
+   500,
+   1000,
+   2000,
+   4000,
+   10000
+  ],
+  "stat_repeats": 5,
+  "call_repeats": 3,
+  "seed": 0,
+  "skipped": [],
+  "no_warm": true,
+  "started": "2026-09-28T00:39:40+00:00",
+  "git": "dce7aab5",
+  "machine": {
+   "cpu": "Apple M1 Pro",
+   "platform": "macOS-26.7-arm64-arm-64bit",
+   "python": "3.12.7",
+   "numpy": "2.2.4",
+   "scipy": "1.15.2",
+   "blas": "accelerate",
+   "threads": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1"
+   }
+  },
+  "test": "Heller-ADP",
+  "class": "HellerBinsTest",
+  "params": {
+   "class": "HellerBinsTest",
+   "score_type": "LikelihoodRatio",
+   "score_idx": 1,
+   "combining": "MinP",
+   "mmin": 2,
+   "mmax": null,
+   "nr_atoms": null,
+   "cache_null": false
+  },
+  "warm_params": null,
+  "reruns": [
+   {
+    "started": "2026-09-27T19:07:09+00:00",
+    "git": "dce7aab5",
+    "sample_sizes": [
+     50,
+     100,
+     200,
+     500,
+     1000,
+     2000,
+     4000
+    ]
+   }
+  ],
+  "extended": {
+   "started": "2026-09-28T00:39:40+00:00",
+   "sample_sizes": [
+    10000
+   ]
+  }
+ },
+ "rows": [
+  {
+   "test": "Heller-ADP",
+   "n": 50,
+   "stat_seconds": 0.038371499998902436,
+   "call_seconds": 70.30242345900479,
+   "stat_seconds_all": [
+    0.09549400000105379,
+    0.03832274999876972,
+    0.038371499998902436,
+    0.03671516599570168,
+    0.039326707999862265
+   ],
+   "call_seconds_all": [
+    70.30242345900479
+   ],
+   "censored_after": false,
+   "warm_seconds": null,
+   "warm_seconds_all": [],
+   "warm_fill_seconds": null
+  },
+  {
+   "test": "Heller-ADP",
+   "n": 100,
+   "stat_seconds": 0.1066285000051721,
+   "call_seconds": 192.53034566599672,
+   "stat_seconds_all": [
+    0.10766012499516364,
+    0.1036239579989342,
+    0.1066285000051721,
+    0.10846041699551279,
+    0.1034487920042011
+   ],
+   "call_seconds_all": [
+    192.53034566599672
+   ],
+   "censored_after": false,
+   "warm_seconds": null,
+   "warm_seconds_all": [],
+   "warm_fill_seconds": null
+  },
+  {
+   "test": "Heller-ADP",
+   "n": 200,
+   "stat_seconds": 0.11281216600036714,
+   "call_seconds": 219.7931736669998,
+   "stat_seconds_all": [
+    0.12047612500464311,
+    0.11281216600036714,
+    0.11415587500232505,
+    0.10892708300525555,
+    0.11239833400031785
+   ],
+   "call_seconds_all": [
+    219.7931736669998
+   ],
+   "censored_after": false,
+   "warm_seconds": null,
+   "warm_seconds_all": [],
+   "warm_fill_seconds": null
+  },
+  {
+   "test": "Heller-ADP",
+   "n": 500,
+   "stat_seconds": 0.13557870899967384,
+   "call_seconds": 271.972011165999,
+   "stat_seconds_all": [
+    0.1416764579989831,
+    0.13557870899967384,
+    0.1354734999986249,
+    0.1358230830010143,
+    0.13552404200163437
+   ],
+   "call_seconds_all": [
+    271.972011165999
+   ],
+   "censored_after": false,
+   "warm_seconds": null,
+   "warm_seconds_all": [],
+   "warm_fill_seconds": null
+  },
+  {
+   "test": "Heller-ADP",
+   "n": 1000,
+   "stat_seconds": 0.17717841600097017,
+   "call_seconds": 360.8113188339994,
+   "stat_seconds_all": [
+    0.18999866700323764,
+    0.1784429170002113,
+    0.17682391699781874,
+    0.17650916599814082,
+    0.17717841600097017
+   ],
+   "call_seconds_all": [
+    360.8113188339994
+   ],
+   "censored_after": false,
+   "warm_seconds": null,
+   "warm_seconds_all": [],
+   "warm_fill_seconds": null
+  },
+  {
+   "test": "Heller-ADP",
+   "n": 2000,
+   "stat_seconds": 0.24352608399931341,
+   "call_seconds": 483.04203699999925,
+   "stat_seconds_all": [
+    0.2540976669988595,
+    0.24352608399931341,
+    0.24728541600052267,
+    0.24122212499787565,
+    0.241402833002212
+   ],
+   "call_seconds_all": [
+    483.04203699999925
+   ],
+   "censored_after": false,
+   "warm_seconds": null,
+   "warm_seconds_all": [],
+   "warm_fill_seconds": null
+  },
+  {
+   "test": "Heller-ADP",
+   "n": 4000,
+   "stat_seconds": 0.40697370799898636,
+   "call_seconds": 769.6697112909969,
+   "stat_seconds_all": [
+    0.40697370799898636,
+    0.3862249579979107,
+    0.39175833300396334,
+    0.4245803329977207,
+    0.4342797079953016
+   ],
+   "call_seconds_all": [
+    769.6697112909969
+   ],
+   "censored_after": false,
+   "warm_seconds": null,
+   "warm_seconds_all": [],
+   "warm_fill_seconds": null
+  },
+  {
+   "test": "Heller-ADP",
+   "n": 10000,
+   "stat_seconds": 0.9256948750116862,
+   "call_seconds": 1734.6896733750036,
+   "stat_seconds_all": [
+    1.279294416992343,
+    0.9256948750116862,
+    0.8830239579983754,
+    0.8543796669982839,
+    1.0418533329939237
+   ],
+   "call_seconds_all": [
+    1734.6896733750036
+   ],
+   "censored_after": false,
+   "warm_seconds": null,
+   "warm_seconds_all": [],
+   "warm_fill_seconds": null
+  }
+ ]
+}

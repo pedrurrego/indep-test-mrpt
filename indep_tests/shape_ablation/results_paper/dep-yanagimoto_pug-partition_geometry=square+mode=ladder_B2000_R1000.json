@@ -1,0 +1,35 @@
+{
+  "test": "PUG-Partition-square-MULTI",
+  "generator": "dep-yanagimoto",
+  "alpha": 0.05,
+  "R": 1000,
+  "B": 2000,
+  "seed": 1234,
+  "results": [
+    {
+      "n": 20,
+      "rejection_rate": 0.056,
+      "elapsed_seconds": 1.61
+    },
+    {
+      "n": 50,
+      "rejection_rate": 0.112,
+      "elapsed_seconds": 4.5
+    },
+    {
+      "n": 100,
+      "rejection_rate": 0.463,
+      "elapsed_seconds": 12.3
+    },
+    {
+      "n": 200,
+      "rejection_rate": 0.943,
+      "elapsed_seconds": 30.88
+    },
+    {
+      "n": 500,
+      "rejection_rate": 1.0,
+      "elapsed_seconds": 91.3
+    }
+  ]
+}

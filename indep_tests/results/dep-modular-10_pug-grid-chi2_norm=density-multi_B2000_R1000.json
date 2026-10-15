@@ -1,0 +1,35 @@
+{
+  "test": "PUG-Grid-ChiSq-DENSITY-MULTI",
+  "generator": "dep-modular-10",
+  "alpha": 0.05,
+  "R": 1000,
+  "B": 2000,
+  "seed": 1234,
+  "results": [
+    {
+      "n": 20,
+      "rejection_rate": 0.031,
+      "elapsed_seconds": 0.57
+    },
+    {
+      "n": 50,
+      "rejection_rate": 0.08,
+      "elapsed_seconds": 0.84
+    },
+    {
+      "n": 100,
+      "rejection_rate": 0.178,
+      "elapsed_seconds": 0.89
+    },
+    {
+      "n": 200,
+      "rejection_rate": 0.884,
+      "elapsed_seconds": 0.99
+    },
+    {
+      "n": 500,
+      "rejection_rate": 1.0,
+      "elapsed_seconds": 1.28
+    }
+  ]
+}

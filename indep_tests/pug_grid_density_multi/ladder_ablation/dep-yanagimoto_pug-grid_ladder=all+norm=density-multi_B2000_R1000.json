@@ -1,0 +1,35 @@
+{
+  "test": "PUG-Grid-DENSITY-MULTI",
+  "generator": "dep-yanagimoto",
+  "alpha": 0.05,
+  "R": 1000,
+  "B": 2000,
+  "seed": 1234,
+  "results": [
+    {
+      "n": 20,
+      "rejection_rate": 0.031,
+      "elapsed_seconds": 3.26
+    },
+    {
+      "n": 50,
+      "rejection_rate": 0.104,
+      "elapsed_seconds": 8.02
+    },
+    {
+      "n": 100,
+      "rejection_rate": 0.456,
+      "elapsed_seconds": 18.62
+    },
+    {
+      "n": 200,
+      "rejection_rate": 0.94,
+      "elapsed_seconds": 45.3
+    },
+    {
+      "n": 500,
+      "rejection_rate": 1.0,
+      "elapsed_seconds": 167.67
+    }
+  ]
+}

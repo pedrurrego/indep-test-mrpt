@@ -1,0 +1,35 @@
+{
+  "test": "Heller-ADP-LR-MinP",
+  "generator": "dep-sine-16pi",
+  "alpha": 0.05,
+  "R": 1000,
+  "B": 2000,
+  "seed": 1234,
+  "results": [
+    {
+      "n": 20,
+      "rejection_rate": 0.047,
+      "elapsed_seconds": 0.9
+    },
+    {
+      "n": 50,
+      "rejection_rate": 0.06,
+      "elapsed_seconds": 181.41
+    },
+    {
+      "n": 100,
+      "rejection_rate": 0.088,
+      "elapsed_seconds": 534.44
+    },
+    {
+      "n": 200,
+      "rejection_rate": 0.323,
+      "elapsed_seconds": 613.71
+    },
+    {
+      "n": 500,
+      "rejection_rate": 1.0,
+      "elapsed_seconds": 743.53
+    }
+  ]
+}

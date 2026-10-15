@@ -1,0 +1,35 @@
+{
+  "test": "PUG-Grid-DENSITY",
+  "generator": "dep-checkerboard-k5-d1",
+  "alpha": 0.05,
+  "R": 1000,
+  "B": 2000,
+  "seed": 1234,
+  "results": [
+    {
+      "n": 20,
+      "rejection_rate": 0.065,
+      "elapsed_seconds": 1.04
+    },
+    {
+      "n": 50,
+      "rejection_rate": 0.287,
+      "elapsed_seconds": 1.97
+    },
+    {
+      "n": 100,
+      "rejection_rate": 0.806,
+      "elapsed_seconds": 4.0
+    },
+    {
+      "n": 200,
+      "rejection_rate": 0.996,
+      "elapsed_seconds": 8.11
+    },
+    {
+      "n": 500,
+      "rejection_rate": 1.0,
+      "elapsed_seconds": 17.44
+    }
+  ]
+}

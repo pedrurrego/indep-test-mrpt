@@ -1,0 +1,15 @@
+{
+  "test": "PUG-Partition-square-K256",
+  "generator": "dep-normal-0.3",
+  "alpha": 0.05,
+  "R": 1000,
+  "B": 2000,
+  "seed": 1234,
+  "results": [
+    {
+      "n": 500,
+      "rejection_rate": 0.604,
+      "elapsed_seconds": 43.02
+    }
+  ]
+}

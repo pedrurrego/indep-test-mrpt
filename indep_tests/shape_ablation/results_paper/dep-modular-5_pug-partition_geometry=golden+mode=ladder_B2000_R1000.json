@@ -1,0 +1,35 @@
+{
+  "test": "PUG-Partition-golden-MULTI",
+  "generator": "dep-modular-5",
+  "alpha": 0.05,
+  "R": 1000,
+  "B": 2000,
+  "seed": 1234,
+  "results": [
+    {
+      "n": 20,
+      "rejection_rate": 0.049,
+      "elapsed_seconds": 1.73
+    },
+    {
+      "n": 50,
+      "rejection_rate": 0.581,
+      "elapsed_seconds": 5.08
+    },
+    {
+      "n": 100,
+      "rejection_rate": 0.958,
+      "elapsed_seconds": 13.9
+    },
+    {
+      "n": 200,
+      "rejection_rate": 1.0,
+      "elapsed_seconds": 32.22
+    },
+    {
+      "n": 500,
+      "rejection_rate": 1.0,
+      "elapsed_seconds": 91.83
+    }
+  ]
+}

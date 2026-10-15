@@ -1,0 +1,35 @@
+{
+  "test": "Salahub-Binning-depth8-p_simple",
+  "generator": "dep-sine-4pi",
+  "alpha": 0.05,
+  "R": 1000,
+  "B": 2000,
+  "seed": 1234,
+  "results": [
+    {
+      "n": 20,
+      "rejection_rate": 0.0,
+      "elapsed_seconds": 0.13
+    },
+    {
+      "n": 50,
+      "rejection_rate": 0.129,
+      "elapsed_seconds": 0.33
+    },
+    {
+      "n": 100,
+      "rejection_rate": 0.449,
+      "elapsed_seconds": 0.46
+    },
+    {
+      "n": 200,
+      "rejection_rate": 0.985,
+      "elapsed_seconds": 1.01
+    },
+    {
+      "n": 500,
+      "rejection_rate": 1.0,
+      "elapsed_seconds": 1.68
+    }
+  ]
+}

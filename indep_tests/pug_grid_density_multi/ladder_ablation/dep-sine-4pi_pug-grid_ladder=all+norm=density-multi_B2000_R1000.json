@@ -1,0 +1,35 @@
+{
+  "test": "PUG-Grid-DENSITY-MULTI",
+  "generator": "dep-sine-4pi",
+  "alpha": 0.05,
+  "R": 1000,
+  "B": 2000,
+  "seed": 1234,
+  "results": [
+    {
+      "n": 20,
+      "rejection_rate": 0.057,
+      "elapsed_seconds": 2.14
+    },
+    {
+      "n": 50,
+      "rejection_rate": 0.405,
+      "elapsed_seconds": 6.39
+    },
+    {
+      "n": 100,
+      "rejection_rate": 1.0,
+      "elapsed_seconds": 17.56
+    },
+    {
+      "n": 200,
+      "rejection_rate": 1.0,
+      "elapsed_seconds": 50.09
+    },
+    {
+      "n": 500,
+      "rejection_rate": 1.0,
+      "elapsed_seconds": 206.16
+    }
+  ]
+}

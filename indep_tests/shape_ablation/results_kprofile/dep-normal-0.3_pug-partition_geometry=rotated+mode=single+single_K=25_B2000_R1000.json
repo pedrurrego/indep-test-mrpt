@@ -1,0 +1,20 @@
+{
+  "test": "PUG-Partition-rotated-K25",
+  "generator": "dep-normal-0.3",
+  "alpha": 0.05,
+  "R": 1000,
+  "B": 2000,
+  "seed": 1234,
+  "results": [
+    {
+      "n": 200,
+      "rejection_rate": 0.601,
+      "elapsed_seconds": 11.01
+    },
+    {
+      "n": 500,
+      "rejection_rate": 0.988,
+      "elapsed_seconds": 27.18
+    }
+  ]
+}

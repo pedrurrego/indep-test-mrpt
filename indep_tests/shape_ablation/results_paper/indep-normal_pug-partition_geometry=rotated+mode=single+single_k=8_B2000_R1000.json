@@ -1,0 +1,35 @@
+{
+  "test": "PUG-Partition-rotated-k8",
+  "generator": "indep-normal",
+  "alpha": 0.05,
+  "R": 1000,
+  "B": 2000,
+  "seed": 1234,
+  "results": [
+    {
+      "n": 20,
+      "rejection_rate": 0.048,
+      "elapsed_seconds": 2.04
+    },
+    {
+      "n": 50,
+      "rejection_rate": 0.051,
+      "elapsed_seconds": 4.15
+    },
+    {
+      "n": 100,
+      "rejection_rate": 0.059,
+      "elapsed_seconds": 5.73
+    },
+    {
+      "n": 200,
+      "rejection_rate": 0.051,
+      "elapsed_seconds": 9.97
+    },
+    {
+      "n": 500,
+      "rejection_rate": 0.044,
+      "elapsed_seconds": 25.15
+    }
+  ]
+}

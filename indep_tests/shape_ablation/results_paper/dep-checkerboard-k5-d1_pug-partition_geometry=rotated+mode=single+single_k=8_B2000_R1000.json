@@ -1,0 +1,35 @@
+{
+  "test": "PUG-Partition-rotated-k8",
+  "generator": "dep-checkerboard-k5-d1",
+  "alpha": 0.05,
+  "R": 1000,
+  "B": 2000,
+  "seed": 1234,
+  "results": [
+    {
+      "n": 20,
+      "rejection_rate": 0.092,
+      "elapsed_seconds": 1.9
+    },
+    {
+      "n": 50,
+      "rejection_rate": 0.288,
+      "elapsed_seconds": 3.7
+    },
+    {
+      "n": 100,
+      "rejection_rate": 0.826,
+      "elapsed_seconds": 6.73
+    },
+    {
+      "n": 200,
+      "rejection_rate": 0.991,
+      "elapsed_seconds": 10.48
+    },
+    {
+      "n": 500,
+      "rejection_rate": 1.0,
+      "elapsed_seconds": 25.31
+    }
+  ]
+}

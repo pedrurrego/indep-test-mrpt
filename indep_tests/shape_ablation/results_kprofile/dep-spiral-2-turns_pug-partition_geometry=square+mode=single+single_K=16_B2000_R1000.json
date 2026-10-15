@@ -1,0 +1,20 @@
+{
+  "test": "PUG-Partition-square-K16",
+  "generator": "dep-spiral-2-turns",
+  "alpha": 0.05,
+  "R": 1000,
+  "B": 2000,
+  "seed": 1234,
+  "results": [
+    {
+      "n": 200,
+      "rejection_rate": 0.892,
+      "elapsed_seconds": 10.02
+    },
+    {
+      "n": 500,
+      "rejection_rate": 0.999,
+      "elapsed_seconds": 26.95
+    }
+  ]
+}

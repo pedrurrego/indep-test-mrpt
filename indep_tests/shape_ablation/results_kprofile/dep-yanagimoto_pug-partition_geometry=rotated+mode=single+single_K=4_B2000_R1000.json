@@ -1,0 +1,20 @@
+{
+  "test": "PUG-Partition-rotated-K4",
+  "generator": "dep-yanagimoto",
+  "alpha": 0.05,
+  "R": 1000,
+  "B": 2000,
+  "seed": 1234,
+  "results": [
+    {
+      "n": 200,
+      "rejection_rate": 0.465,
+      "elapsed_seconds": 11.77
+    },
+    {
+      "n": 500,
+      "rejection_rate": 0.864,
+      "elapsed_seconds": 28.58
+    }
+  ]
+}

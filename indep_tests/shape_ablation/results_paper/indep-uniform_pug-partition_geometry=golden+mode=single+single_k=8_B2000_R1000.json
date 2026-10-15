@@ -1,0 +1,35 @@
+{
+  "test": "PUG-Partition-golden-k8",
+  "generator": "indep-uniform",
+  "alpha": 0.05,
+  "R": 1000,
+  "B": 2000,
+  "seed": 1234,
+  "results": [
+    {
+      "n": 20,
+      "rejection_rate": 0.045,
+      "elapsed_seconds": 1.65
+    },
+    {
+      "n": 50,
+      "rejection_rate": 0.023,
+      "elapsed_seconds": 2.65
+    },
+    {
+      "n": 100,
+      "rejection_rate": 0.047,
+      "elapsed_seconds": 5.43
+    },
+    {
+      "n": 200,
+      "rejection_rate": 0.042,
+      "elapsed_seconds": 9.97
+    },
+    {
+      "n": 500,
+      "rejection_rate": 0.045,
+      "elapsed_seconds": 24.44
+    }
+  ]
+}

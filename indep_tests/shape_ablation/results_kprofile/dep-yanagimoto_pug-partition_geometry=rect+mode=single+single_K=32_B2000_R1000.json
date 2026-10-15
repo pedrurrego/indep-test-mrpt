@@ -1,0 +1,20 @@
+{
+  "test": "PUG-Partition-rect-K32",
+  "generator": "dep-yanagimoto",
+  "alpha": 0.05,
+  "R": 1000,
+  "B": 2000,
+  "seed": 1234,
+  "results": [
+    {
+      "n": 200,
+      "rejection_rate": 0.402,
+      "elapsed_seconds": 15.18
+    },
+    {
+      "n": 500,
+      "rejection_rate": 0.856,
+      "elapsed_seconds": 38.44
+    }
+  ]
+}

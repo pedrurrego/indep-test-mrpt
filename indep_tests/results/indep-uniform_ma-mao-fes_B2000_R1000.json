@@ -1,0 +1,35 @@
+{
+  "test": "Ma-Mao-FES",
+  "generator": "indep-uniform",
+  "alpha": 0.05,
+  "R": 1000,
+  "B": 2000,
+  "seed": 1234,
+  "results": [
+    {
+      "n": 20,
+      "rejection_rate": 0.0,
+      "elapsed_seconds": 45.09
+    },
+    {
+      "n": 50,
+      "rejection_rate": 0.028,
+      "elapsed_seconds": 45.68
+    },
+    {
+      "n": 100,
+      "rejection_rate": 0.027,
+      "elapsed_seconds": 47.2
+    },
+    {
+      "n": 200,
+      "rejection_rate": 0.029,
+      "elapsed_seconds": 50.97
+    },
+    {
+      "n": 500,
+      "rejection_rate": 0.038,
+      "elapsed_seconds": 73.45
+    }
+  ]
+}

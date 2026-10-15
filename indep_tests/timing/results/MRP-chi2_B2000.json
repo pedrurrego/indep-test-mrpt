@@ -1,0 +1,293 @@
+{
+ "meta": {
+  "B": 2000,
+  "cap_seconds": 3600.0,
+  "warm_fill_cap_seconds": 900.0,
+  "repeat_budget_seconds": 60.0,
+  "max_predicted_seconds": 3600.0,
+  "sample_sizes": [
+   50,
+   100,
+   200,
+   500,
+   1000,
+   2000,
+   4000,
+   10000,
+   100000,
+   1000000,
+   10000000
+  ],
+  "stat_repeats": 5,
+  "call_repeats": 3,
+  "seed": 0,
+  "skipped": [],
+  "no_warm": true,
+  "started": "2026-09-27T23:09:18+00:00",
+  "git": "dce7aab5",
+  "machine": {
+   "cpu": "Apple M1 Pro",
+   "platform": "macOS-26.7-arm64-arm-64bit",
+   "python": "3.12.7",
+   "numpy": "2.2.4",
+   "scipy": "1.15.2",
+   "blas": "accelerate",
+   "threads": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1"
+   }
+  },
+  "test": "MRP-chi2",
+  "class": "PUGGridPearsonChiSquaredTest",
+  "params": {
+   "class": "PUGGridPearsonChiSquaredTest",
+   "k": null,
+   "norm": "density-multi"
+  },
+  "warm_params": null
+ },
+ "rows": [
+  {
+   "test": "MRP-chi2",
+   "n": 50,
+   "stat_seconds": 0.00025145800464088097,
+   "call_seconds": 0.00036212499981047586,
+   "stat_seconds_all": [
+    0.000887249996594619,
+    0.0002904170032707043,
+    0.00025145800464088097,
+    0.00024012500216485932,
+    0.0002399580043856986
+   ],
+   "call_seconds_all": [
+    0.0005436249994090758,
+    0.00036212499981047586,
+    0.00034212500031571835
+   ],
+   "censored_after": false,
+   "warm_seconds": null,
+   "warm_seconds_all": [],
+   "warm_fill_seconds": null
+  },
+  {
+   "test": "MRP-chi2",
+   "n": 100,
+   "stat_seconds": 0.0003008330022566952,
+   "call_seconds": 0.00048020800022641197,
+   "stat_seconds_all": [
+    0.0004191670013824478,
+    0.0003008330022566952,
+    0.00028449999808799475,
+    0.0002760410061455332,
+    0.0005252080009086058
+   ],
+   "call_seconds_all": [
+    0.0006155000010039657,
+    0.00048020800022641197,
+    0.0004192080014036037
+   ],
+   "censored_after": false,
+   "warm_seconds": null,
+   "warm_seconds_all": [],
+   "warm_fill_seconds": null
+  },
+  {
+   "test": "MRP-chi2",
+   "n": 200,
+   "stat_seconds": 0.00033504200109746307,
+   "call_seconds": 0.00048570800572633743,
+   "stat_seconds_all": [
+    0.00041845899977488443,
+    0.000349916001141537,
+    0.00033504200109746307,
+    0.00033391699980711564,
+    0.0003283339974586852
+   ],
+   "call_seconds_all": [
+    0.0005132080041221343,
+    0.00048570800572633743,
+    0.0004743329991470091
+   ],
+   "censored_after": false,
+   "warm_seconds": null,
+   "warm_seconds_all": [],
+   "warm_fill_seconds": null
+  },
+  {
+   "test": "MRP-chi2",
+   "n": 500,
+   "stat_seconds": 0.0007496660036849789,
+   "call_seconds": 0.0006278750006458722,
+   "stat_seconds_all": [
+    0.0008202089957194403,
+    0.0007496660036849789,
+    0.0005758330007665791,
+    0.0007821670005796477,
+    0.0004886249953415245
+   ],
+   "call_seconds_all": [
+    0.0006763339988538064,
+    0.0006278750006458722,
+    0.0006050000010873191
+   ],
+   "censored_after": false,
+   "warm_seconds": null,
+   "warm_seconds_all": [],
+   "warm_fill_seconds": null
+  },
+  {
+   "test": "MRP-chi2",
+   "n": 1000,
+   "stat_seconds": 0.0008925829970394261,
+   "call_seconds": 0.0011264999993727542,
+   "stat_seconds_all": [
+    0.0009232080046785995,
+    0.0007780830055708066,
+    0.000748792001104448,
+    0.0008925829970394261,
+    0.0020766670058947057
+   ],
+   "call_seconds_all": [
+    0.0012215829992783256,
+    0.0011264999993727542,
+    0.0009051250017364509
+   ],
+   "censored_after": false,
+   "warm_seconds": null,
+   "warm_seconds_all": [],
+   "warm_fill_seconds": null
+  },
+  {
+   "test": "MRP-chi2",
+   "n": 2000,
+   "stat_seconds": 0.0016586250058026053,
+   "call_seconds": 0.0015121660035219975,
+   "stat_seconds_all": [
+    0.0014704580025863834,
+    0.0016586250058026053,
+    0.0017656670024734922,
+    0.0017229579971171916,
+    0.0014202499951352365
+   ],
+   "call_seconds_all": [
+    0.0016945419993135147,
+    0.0015121660035219975,
+    0.001433874997019302
+   ],
+   "censored_after": false,
+   "warm_seconds": null,
+   "warm_seconds_all": [],
+   "warm_fill_seconds": null
+  },
+  {
+   "test": "MRP-chi2",
+   "n": 4000,
+   "stat_seconds": 0.0025457500014454126,
+   "call_seconds": 0.002779125003144145,
+   "stat_seconds_all": [
+    0.0025457500014454126,
+    0.0055483749965787865,
+    0.0025191249951603822,
+    0.002452749999065418,
+    0.0032062090031104162
+   ],
+   "call_seconds_all": [
+    0.0038509579972014762,
+    0.002696375006053131,
+    0.002779125003144145
+   ],
+   "censored_after": false,
+   "warm_seconds": null,
+   "warm_seconds_all": [],
+   "warm_fill_seconds": null
+  },
+  {
+   "test": "MRP-chi2",
+   "n": 10000,
+   "stat_seconds": 0.00576533300045412,
+   "call_seconds": 0.0065109580027638,
+   "stat_seconds_all": [
+    0.00576533300045412,
+    0.005712082995160017,
+    0.0056982500027515925,
+    0.005883666999579873,
+    0.0058529169982648455
+   ],
+   "call_seconds_all": [
+    0.0065109580027638,
+    0.0069919590023346245,
+    0.006043667002813891
+   ],
+   "censored_after": false,
+   "warm_seconds": null,
+   "warm_seconds_all": [],
+   "warm_fill_seconds": null
+  },
+  {
+   "test": "MRP-chi2",
+   "n": 100000,
+   "stat_seconds": 0.07063066699629417,
+   "call_seconds": 0.07119750000128988,
+   "stat_seconds_all": [
+    0.06982937499560649,
+    0.07063066699629417,
+    0.08112241600611014,
+    0.06924350000190316,
+    0.07087733300431864
+   ],
+   "call_seconds_all": [
+    0.07119750000128988,
+    0.0730308329948457,
+    0.070455833003507
+   ],
+   "censored_after": false,
+   "warm_seconds": null,
+   "warm_seconds_all": [],
+   "warm_fill_seconds": null
+  },
+  {
+   "test": "MRP-chi2",
+   "n": 1000000,
+   "stat_seconds": 0.8505380420028814,
+   "call_seconds": 0.8713404170048307,
+   "stat_seconds_all": [
+    1.097083290995215,
+    0.76113612500194,
+    0.8916950829952839,
+    0.8505380420028814,
+    0.7601212919980753
+   ],
+   "call_seconds_all": [
+    0.9539942499977769,
+    0.8713404170048307,
+    0.7666275829978986
+   ],
+   "censored_after": false,
+   "warm_seconds": null,
+   "warm_seconds_all": [],
+   "warm_fill_seconds": null
+  },
+  {
+   "test": "MRP-chi2",
+   "n": 10000000,
+   "stat_seconds": 27.286177499998303,
+   "call_seconds": 25.925210125002195,
+   "stat_seconds_all": [
+    27.286177499998303,
+    25.82779029199446,
+    27.406568499995046
+   ],
+   "call_seconds_all": [
+    25.925210125002195,
+    29.06410908300313,
+    25.53781916599837
+   ],
+   "censored_after": false,
+   "warm_seconds": null,
+   "warm_seconds_all": [],
+   "warm_fill_seconds": null
+  }
+ ]
+}

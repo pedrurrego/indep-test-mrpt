@@ -1,0 +1,35 @@
+{
+  "test": "ZhangBETs-dmax4",
+  "generator": "dep-sine-4pi",
+  "alpha": 0.05,
+  "R": 1000,
+  "B": 2000,
+  "seed": 1234,
+  "results": [
+    {
+      "n": 20,
+      "rejection_rate": 0.065,
+      "elapsed_seconds": 0.4
+    },
+    {
+      "n": 50,
+      "rejection_rate": 0.581,
+      "elapsed_seconds": 0.44
+    },
+    {
+      "n": 100,
+      "rejection_rate": 0.997,
+      "elapsed_seconds": 0.46
+    },
+    {
+      "n": 200,
+      "rejection_rate": 1.0,
+      "elapsed_seconds": 0.52
+    },
+    {
+      "n": 500,
+      "rejection_rate": 1.0,
+      "elapsed_seconds": 0.81
+    }
+  ]
+}

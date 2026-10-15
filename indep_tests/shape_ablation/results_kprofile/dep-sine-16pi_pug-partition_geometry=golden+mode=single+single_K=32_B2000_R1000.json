@@ -1,0 +1,20 @@
+{
+  "test": "PUG-Partition-golden-K32",
+  "generator": "dep-sine-16pi",
+  "alpha": 0.05,
+  "R": 1000,
+  "B": 2000,
+  "seed": 1234,
+  "results": [
+    {
+      "n": 200,
+      "rejection_rate": 0.074,
+      "elapsed_seconds": 9.48
+    },
+    {
+      "n": 500,
+      "rejection_rate": 0.098,
+      "elapsed_seconds": 23.41
+    }
+  ]
+}

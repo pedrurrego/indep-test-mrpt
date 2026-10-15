@@ -1,0 +1,15 @@
+{
+  "test": "PUG-Partition-rect-K392",
+  "generator": "dep-normal-0.3",
+  "alpha": 0.05,
+  "R": 1000,
+  "B": 2000,
+  "seed": 1234,
+  "results": [
+    {
+      "n": 500,
+      "rejection_rate": 0.45,
+      "elapsed_seconds": 43.66
+    }
+  ]
+}

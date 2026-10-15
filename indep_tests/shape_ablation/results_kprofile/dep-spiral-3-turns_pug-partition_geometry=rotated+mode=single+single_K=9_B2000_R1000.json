@@ -1,0 +1,20 @@
+{
+  "test": "PUG-Partition-rotated-K9",
+  "generator": "dep-spiral-3-turns",
+  "alpha": 0.05,
+  "R": 1000,
+  "B": 2000,
+  "seed": 1234,
+  "results": [
+    {
+      "n": 200,
+      "rejection_rate": 0.37,
+      "elapsed_seconds": 9.82
+    },
+    {
+      "n": 500,
+      "rejection_rate": 0.779,
+      "elapsed_seconds": 24.51
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "test": "Heller-ADP-LR-MinP",
+  "generator": "dep-spiral-2-turns",
+  "alpha": 0.05,
+  "R": 1000,
+  "B": 2000,
+  "seed": 1234,
+  "results": [
+    {
+      "n": 20,
+      "rejection_rate": 0.066,
+      "elapsed_seconds": 0.56
+    },
+    {
+      "n": 50,
+      "rejection_rate": 0.194,
+      "elapsed_seconds": 172.35
+    },
+    {
+      "n": 100,
+      "rejection_rate": 0.928,
+      "elapsed_seconds": 465.8
+    },
+    {
+      "n": 200,
+      "rejection_rate": 1.0,
+      "elapsed_seconds": 560.96
+    },
+    {
+      "n": 500,
+      "rejection_rate": 1.0,
+      "elapsed_seconds": 708.68
+    }
+  ]
+}

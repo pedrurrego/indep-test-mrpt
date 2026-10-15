@@ -1,0 +1,35 @@
+{
+  "test": "PUG-Partition-square-k8",
+  "generator": "indep-expon",
+  "alpha": 0.05,
+  "R": 1000,
+  "B": 2000,
+  "seed": 1234,
+  "results": [
+    {
+      "n": 20,
+      "rejection_rate": 0.039,
+      "elapsed_seconds": 1.82
+    },
+    {
+      "n": 50,
+      "rejection_rate": 0.035,
+      "elapsed_seconds": 2.9
+    },
+    {
+      "n": 100,
+      "rejection_rate": 0.053,
+      "elapsed_seconds": 5.15
+    },
+    {
+      "n": 200,
+      "rejection_rate": 0.05,
+      "elapsed_seconds": 8.39
+    },
+    {
+      "n": 500,
+      "rejection_rate": 0.051,
+      "elapsed_seconds": 19.37
+    }
+  ]
+}

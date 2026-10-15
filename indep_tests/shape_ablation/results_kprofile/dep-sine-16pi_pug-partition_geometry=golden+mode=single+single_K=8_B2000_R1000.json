@@ -1,0 +1,20 @@
+{
+  "test": "PUG-Partition-golden-K8",
+  "generator": "dep-sine-16pi",
+  "alpha": 0.05,
+  "R": 1000,
+  "B": 2000,
+  "seed": 1234,
+  "results": [
+    {
+      "n": 200,
+      "rejection_rate": 0.064,
+      "elapsed_seconds": 9.5
+    },
+    {
+      "n": 500,
+      "rejection_rate": 0.08,
+      "elapsed_seconds": 23.94
+    }
+  ]
+}

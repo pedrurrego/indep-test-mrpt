@@ -1,0 +1,35 @@
+{
+  "test": "PUG-Partition-power-MULTI",
+  "generator": "dep-sine-4pi",
+  "alpha": 0.05,
+  "R": 1000,
+  "B": 2000,
+  "seed": 1234,
+  "results": [
+    {
+      "n": 20,
+      "rejection_rate": 0.105,
+      "elapsed_seconds": 1.64
+    },
+    {
+      "n": 50,
+      "rejection_rate": 0.386,
+      "elapsed_seconds": 4.94
+    },
+    {
+      "n": 100,
+      "rejection_rate": 0.999,
+      "elapsed_seconds": 13.87
+    },
+    {
+      "n": 200,
+      "rejection_rate": 1.0,
+      "elapsed_seconds": 33.5
+    },
+    {
+      "n": 500,
+      "rejection_rate": 1.0,
+      "elapsed_seconds": 95.55
+    }
+  ]
+}

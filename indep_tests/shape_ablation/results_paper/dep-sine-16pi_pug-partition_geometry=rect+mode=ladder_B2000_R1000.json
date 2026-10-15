@@ -1,0 +1,35 @@
+{
+  "test": "PUG-Partition-rect-MULTI",
+  "generator": "dep-sine-16pi",
+  "alpha": 0.05,
+  "R": 1000,
+  "B": 2000,
+  "seed": 1234,
+  "results": [
+    {
+      "n": 20,
+      "rejection_rate": 0.027,
+      "elapsed_seconds": 1.77
+    },
+    {
+      "n": 50,
+      "rejection_rate": 0.034,
+      "elapsed_seconds": 4.84
+    },
+    {
+      "n": 100,
+      "rejection_rate": 0.042,
+      "elapsed_seconds": 13.72
+    },
+    {
+      "n": 200,
+      "rejection_rate": 0.069,
+      "elapsed_seconds": 32.43
+    },
+    {
+      "n": 500,
+      "rejection_rate": 0.13,
+      "elapsed_seconds": 87.88
+    }
+  ]
+}

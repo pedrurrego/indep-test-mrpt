@@ -1,0 +1,35 @@
+{
+  "test": "dCov_auto-True",
+  "generator": "dep-checkerboard-k5-d1",
+  "alpha": 0.05,
+  "R": 1000,
+  "B": 2000,
+  "seed": 1234,
+  "results": [
+    {
+      "n": 20,
+      "rejection_rate": 0.058,
+      "elapsed_seconds": 349.33
+    },
+    {
+      "n": 50,
+      "rejection_rate": 0.068,
+      "elapsed_seconds": 0.26
+    },
+    {
+      "n": 100,
+      "rejection_rate": 0.062,
+      "elapsed_seconds": 0.5
+    },
+    {
+      "n": 200,
+      "rejection_rate": 0.078,
+      "elapsed_seconds": 0.93
+    },
+    {
+      "n": 500,
+      "rejection_rate": 0.125,
+      "elapsed_seconds": 2.5
+    }
+  ]
+}

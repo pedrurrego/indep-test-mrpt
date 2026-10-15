@@ -1,0 +1,15 @@
+{
+  "test": "PUG-Partition-rect-K338",
+  "generator": "dep-sine-16pi",
+  "alpha": 0.05,
+  "R": 1000,
+  "B": 2000,
+  "seed": 1234,
+  "results": [
+    {
+      "n": 500,
+      "rejection_rate": 0.244,
+      "elapsed_seconds": 40.67
+    }
+  ]
+}

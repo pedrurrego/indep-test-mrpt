@@ -1,0 +1,35 @@
+{
+  "test": "Ma-Mao-FES",
+  "generator": "dep-normal-0.3",
+  "alpha": 0.05,
+  "R": 1000,
+  "B": 2000,
+  "seed": 1234,
+  "results": [
+    {
+      "n": 20,
+      "rejection_rate": 0.0,
+      "elapsed_seconds": 50.9
+    },
+    {
+      "n": 50,
+      "rejection_rate": 0.181,
+      "elapsed_seconds": 51.56
+    },
+    {
+      "n": 100,
+      "rejection_rate": 0.306,
+      "elapsed_seconds": 55.26
+    },
+    {
+      "n": 200,
+      "rejection_rate": 0.553,
+      "elapsed_seconds": 59.12
+    },
+    {
+      "n": 500,
+      "rejection_rate": 0.981,
+      "elapsed_seconds": 79.04
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "test": "PUG-Partition-square-K144",
+  "generator": "dep-sine-16pi",
+  "alpha": 0.05,
+  "R": 1000,
+  "B": 2000,
+  "seed": 1234,
+  "results": [
+    {
+      "n": 200,
+      "rejection_rate": 0.115,
+      "elapsed_seconds": 17.79
+    },
+    {
+      "n": 500,
+      "rejection_rate": 0.408,
+      "elapsed_seconds": 43.43
+    }
+  ]
+}

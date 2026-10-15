@@ -1,0 +1,20 @@
+{
+  "test": "PUG-Partition-golden-K4",
+  "generator": "dep-normal-0.3",
+  "alpha": 0.05,
+  "R": 1000,
+  "B": 2000,
+  "seed": 1234,
+  "results": [
+    {
+      "n": 200,
+      "rejection_rate": 0.489,
+      "elapsed_seconds": 9.78
+    },
+    {
+      "n": 500,
+      "rejection_rate": 0.928,
+      "elapsed_seconds": 25.25
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "test": "PUG-Partition-power-K196",
+  "generator": "dep-modular-10",
+  "alpha": 0.05,
+  "R": 1000,
+  "B": 2000,
+  "seed": 1234,
+  "results": [
+    {
+      "n": 200,
+      "rejection_rate": 0.964,
+      "elapsed_seconds": 11.54
+    },
+    {
+      "n": 500,
+      "rejection_rate": 1.0,
+      "elapsed_seconds": 27.82
+    }
+  ]
+}

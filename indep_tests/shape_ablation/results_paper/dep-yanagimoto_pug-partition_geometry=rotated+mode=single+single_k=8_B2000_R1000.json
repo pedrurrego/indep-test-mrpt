@@ -1,0 +1,35 @@
+{
+  "test": "PUG-Partition-rotated-k8",
+  "generator": "dep-yanagimoto",
+  "alpha": 0.05,
+  "R": 1000,
+  "B": 2000,
+  "seed": 1234,
+  "results": [
+    {
+      "n": 20,
+      "rejection_rate": 0.082,
+      "elapsed_seconds": 2.13
+    },
+    {
+      "n": 50,
+      "rejection_rate": 0.201,
+      "elapsed_seconds": 3.36
+    },
+    {
+      "n": 100,
+      "rejection_rate": 0.495,
+      "elapsed_seconds": 5.86
+    },
+    {
+      "n": 200,
+      "rejection_rate": 0.915,
+      "elapsed_seconds": 10.65
+    },
+    {
+      "n": 500,
+      "rejection_rate": 1.0,
+      "elapsed_seconds": 26.58
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "test": "dCov_auto-True",
+  "generator": "dep-modular-5",
+  "alpha": 0.05,
+  "R": 1000,
+  "B": 2000,
+  "seed": 1234,
+  "results": [
+    {
+      "n": 20,
+      "rejection_rate": 0.114,
+      "elapsed_seconds": 350.38
+    },
+    {
+      "n": 50,
+      "rejection_rate": 0.267,
+      "elapsed_seconds": 0.23
+    },
+    {
+      "n": 100,
+      "rejection_rate": 0.537,
+      "elapsed_seconds": 0.44
+    },
+    {
+      "n": 200,
+      "rejection_rate": 0.928,
+      "elapsed_seconds": 0.88
+    },
+    {
+      "n": 500,
+      "rejection_rate": 1.0,
+      "elapsed_seconds": 2.34
+    }
+  ]
+}

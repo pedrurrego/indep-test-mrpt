@@ -1,0 +1,20 @@
+{
+  "test": "PUG-Partition-power-K16",
+  "generator": "dep-spiral-3-turns",
+  "alpha": 0.05,
+  "R": 1000,
+  "B": 2000,
+  "seed": 1234,
+  "results": [
+    {
+      "n": 200,
+      "rejection_rate": 0.525,
+      "elapsed_seconds": 10.1
+    },
+    {
+      "n": 500,
+      "rejection_rate": 0.947,
+      "elapsed_seconds": 27.98
+    }
+  ]
+}

@@ -1,0 +1,319 @@
+{
+ "meta": {
+  "B": 2000,
+  "cap_seconds": 3600.0,
+  "warm_fill_cap_seconds": 3600.0,
+  "repeat_budget_seconds": 60.0,
+  "max_predicted_seconds": 10800.0,
+  "sample_sizes": [
+   50,
+   100,
+   200,
+   500,
+   1000,
+   2000,
+   4000,
+   10000,
+   100000,
+   1000000,
+   10000000
+  ],
+  "stat_repeats": 5,
+  "call_repeats": 3,
+  "seed": 0,
+  "skipped": [
+   "Heller-ADP",
+   "GJT-QAD",
+   "Cmiel-Ledwina-Tn"
+  ],
+  "started": "2026-09-27T00:28:33+00:00",
+  "git": "935d8b4d",
+  "machine": {
+   "cpu": "Apple M1 Pro",
+   "platform": "macOS-26.7-arm64-arm-64bit",
+   "python": "3.12.7",
+   "numpy": "2.2.4",
+   "scipy": "1.15.2",
+   "blas": "accelerate",
+   "threads": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1"
+   }
+  },
+  "test": "Salahub-Oldford-p_simple",
+  "class": "SalahubBinningTest",
+  "params": {
+   "class": "SalahubBinningTest",
+   "max_depth": 8,
+   "min_exp": 5.0,
+   "squarify": true,
+   "p_method": "simple"
+  },
+  "warm_params": null,
+  "reruns": [
+   {
+    "started": "2026-09-27T00:21:22+00:00",
+    "git": "935d8b4d",
+    "sample_sizes": [
+     50,
+     100,
+     200,
+     500,
+     1000,
+     2000,
+     4000,
+     10000,
+     100000,
+     1000000,
+     10000000
+    ]
+   }
+  ]
+ },
+ "rows": [
+  {
+   "test": "Salahub-Oldford-p_simple",
+   "n": 50,
+   "stat_seconds": 7.354199988185428e-05,
+   "call_seconds": 9.687499914434738e-05,
+   "stat_seconds_all": [
+    0.00020183399828965776,
+    7.354199988185428e-05,
+    7.52909982111305e-05,
+    6.275000123423524e-05,
+    5.900000178371556e-05
+   ],
+   "call_seconds_all": [
+    0.00012704199980362318,
+    9.566600056132302e-05,
+    9.687499914434738e-05
+   ],
+   "censored_after": false,
+   "warm_seconds": null,
+   "warm_seconds_all": [],
+   "warm_fill_seconds": null
+  },
+  {
+   "test": "Salahub-Oldford-p_simple",
+   "n": 100,
+   "stat_seconds": 0.00012570799663080834,
+   "call_seconds": 0.00014024999836692587,
+   "stat_seconds_all": [
+    0.000212417002330767,
+    0.0001296659975196235,
+    0.0001254579983651638,
+    0.00012570799663080834,
+    0.00011825000183307566
+   ],
+   "call_seconds_all": [
+    0.00016420900283264928,
+    0.00014024999836692587,
+    0.0001376250002067536
+   ],
+   "censored_after": false,
+   "warm_seconds": null,
+   "warm_seconds_all": [],
+   "warm_fill_seconds": null
+  },
+  {
+   "test": "Salahub-Oldford-p_simple",
+   "n": 200,
+   "stat_seconds": 0.00023470800078939646,
+   "call_seconds": 0.00025641599859227426,
+   "stat_seconds_all": [
+    0.00031354200109490193,
+    0.00025054199795704335,
+    0.000229124998440966,
+    0.0002108330008923076,
+    0.00023470800078939646
+   ],
+   "call_seconds_all": [
+    0.00026404200252727605,
+    0.00025641599859227426,
+    0.00025154099785140716
+   ],
+   "censored_after": false,
+   "warm_seconds": null,
+   "warm_seconds_all": [],
+   "warm_fill_seconds": null
+  },
+  {
+   "test": "Salahub-Oldford-p_simple",
+   "n": 500,
+   "stat_seconds": 0.0005236670003796462,
+   "call_seconds": 0.0005242500010353979,
+   "stat_seconds_all": [
+    0.000644208997982787,
+    0.0004913330012641381,
+    0.0004911249998258427,
+    0.0005936669986112975,
+    0.0005236670003796462
+   ],
+   "call_seconds_all": [
+    0.0005636249989038333,
+    0.0005170420008653309,
+    0.0005242500010353979
+   ],
+   "censored_after": false,
+   "warm_seconds": null,
+   "warm_seconds_all": [],
+   "warm_fill_seconds": null
+  },
+  {
+   "test": "Salahub-Oldford-p_simple",
+   "n": 1000,
+   "stat_seconds": 0.0008177079980669077,
+   "call_seconds": 0.0006717079995723907,
+   "stat_seconds_all": [
+    0.0007830829999875277,
+    0.0008852499995555263,
+    0.0009059170006366912,
+    0.0007931670006655622,
+    0.0008177079980669077
+   ],
+   "call_seconds_all": [
+    0.0006677500023215543,
+    0.0008242920011980459,
+    0.0006717079995723907
+   ],
+   "censored_after": false,
+   "warm_seconds": null,
+   "warm_seconds_all": [],
+   "warm_fill_seconds": null
+  },
+  {
+   "test": "Salahub-Oldford-p_simple",
+   "n": 2000,
+   "stat_seconds": 0.001413666999724228,
+   "call_seconds": 0.0012679579995165113,
+   "stat_seconds_all": [
+    0.0014473750015895348,
+    0.0013874579999537673,
+    0.001512957998784259,
+    0.001320749997830717,
+    0.001413666999724228
+   ],
+   "call_seconds_all": [
+    0.001436541999282781,
+    0.0012679579995165113,
+    0.001253250000445405
+   ],
+   "censored_after": false,
+   "warm_seconds": null,
+   "warm_seconds_all": [],
+   "warm_fill_seconds": null
+  },
+  {
+   "test": "Salahub-Oldford-p_simple",
+   "n": 4000,
+   "stat_seconds": 0.0021827090022270568,
+   "call_seconds": 0.0022713329999533016,
+   "stat_seconds_all": [
+    0.002638125002704328,
+    0.002264833001390798,
+    0.0021827090022270568,
+    0.002017332997638732,
+    0.0021495420005521737
+   ],
+   "call_seconds_all": [
+    0.0021357920013542753,
+    0.0022713329999533016,
+    0.0023382910003419966
+   ],
+   "censored_after": false,
+   "warm_seconds": null,
+   "warm_seconds_all": [],
+   "warm_fill_seconds": null
+  },
+  {
+   "test": "Salahub-Oldford-p_simple",
+   "n": 10000,
+   "stat_seconds": 0.004672084000048926,
+   "call_seconds": 0.00460883300183923,
+   "stat_seconds_all": [
+    0.004867874999035848,
+    0.004672084000048926,
+    0.004641499999706866,
+    0.004456124999705935,
+    0.004692208000051323
+   ],
+   "call_seconds_all": [
+    0.00470820899863611,
+    0.0045479580003302544,
+    0.00460883300183923
+   ],
+   "censored_after": false,
+   "warm_seconds": null,
+   "warm_seconds_all": [],
+   "warm_fill_seconds": null
+  },
+  {
+   "test": "Salahub-Oldford-p_simple",
+   "n": 100000,
+   "stat_seconds": 0.04540462500153808,
+   "call_seconds": 0.046338708998518996,
+   "stat_seconds_all": [
+    0.04750666700056172,
+    0.04520983299880754,
+    0.045237541999085806,
+    0.04653262500141864,
+    0.04540462500153808
+   ],
+   "call_seconds_all": [
+    0.046338708998518996,
+    0.04673383299814304,
+    0.04630395799904363
+   ],
+   "censored_after": false,
+   "warm_seconds": null,
+   "warm_seconds_all": [],
+   "warm_fill_seconds": null
+  },
+  {
+   "test": "Salahub-Oldford-p_simple",
+   "n": 1000000,
+   "stat_seconds": 0.6384181659996102,
+   "call_seconds": 0.6301998750022904,
+   "stat_seconds_all": [
+    0.6981046250002692,
+    0.8583950419997564,
+    0.5864218749993597,
+    0.5966708329979156,
+    0.6384181659996102
+   ],
+   "call_seconds_all": [
+    0.6301998750022904,
+    0.6345509999991918,
+    0.6123654579969298
+   ],
+   "censored_after": false,
+   "warm_seconds": null,
+   "warm_seconds_all": [],
+   "warm_fill_seconds": null
+  },
+  {
+   "test": "Salahub-Oldford-p_simple",
+   "n": 10000000,
+   "stat_seconds": 12.0269312920027,
+   "call_seconds": 11.931929000002128,
+   "stat_seconds_all": [
+    12.330518041999312,
+    12.0269312920027,
+    11.792358916001831,
+    11.80466937500023,
+    12.124832999998034
+   ],
+   "call_seconds_all": [
+    11.98829454099905,
+    11.799778500000684,
+    11.931929000002128
+   ],
+   "censored_after": false,
+   "warm_seconds": null,
+   "warm_seconds_all": [],
+   "warm_fill_seconds": null
+  }
+ ]
+}

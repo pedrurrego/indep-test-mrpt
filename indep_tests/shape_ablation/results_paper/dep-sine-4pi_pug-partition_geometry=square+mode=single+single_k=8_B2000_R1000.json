@@ -1,0 +1,35 @@
+{
+  "test": "PUG-Partition-square-k8",
+  "generator": "dep-sine-4pi",
+  "alpha": 0.05,
+  "R": 1000,
+  "B": 2000,
+  "seed": 1234,
+  "results": [
+    {
+      "n": 20,
+      "rejection_rate": 0.122,
+      "elapsed_seconds": 1.92
+    },
+    {
+      "n": 50,
+      "rejection_rate": 0.572,
+      "elapsed_seconds": 3.09
+    },
+    {
+      "n": 100,
+      "rejection_rate": 0.977,
+      "elapsed_seconds": 5.62
+    },
+    {
+      "n": 200,
+      "rejection_rate": 1.0,
+      "elapsed_seconds": 10.72
+    },
+    {
+      "n": 500,
+      "rejection_rate": 1.0,
+      "elapsed_seconds": 24.77
+    }
+  ]
+}

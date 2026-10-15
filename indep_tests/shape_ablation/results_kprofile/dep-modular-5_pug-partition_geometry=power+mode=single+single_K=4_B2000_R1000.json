@@ -1,0 +1,20 @@
+{
+  "test": "PUG-Partition-power-K4",
+  "generator": "dep-modular-5",
+  "alpha": 0.05,
+  "R": 1000,
+  "B": 2000,
+  "seed": 1234,
+  "results": [
+    {
+      "n": 200,
+      "rejection_rate": 0.617,
+      "elapsed_seconds": 9.53
+    },
+    {
+      "n": 500,
+      "rejection_rate": 0.973,
+      "elapsed_seconds": 24.67
+    }
+  ]
+}

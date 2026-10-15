@@ -1,0 +1,35 @@
+{
+  "test": "PUG-Partition-rect-k8",
+  "generator": "dep-spiral-3-turns",
+  "alpha": 0.05,
+  "R": 1000,
+  "B": 2000,
+  "seed": 1234,
+  "results": [
+    {
+      "n": 20,
+      "rejection_rate": 0.021,
+      "elapsed_seconds": 1.8
+    },
+    {
+      "n": 50,
+      "rejection_rate": 0.216,
+      "elapsed_seconds": 3.43
+    },
+    {
+      "n": 100,
+      "rejection_rate": 0.584,
+      "elapsed_seconds": 5.73
+    },
+    {
+      "n": 200,
+      "rejection_rate": 0.972,
+      "elapsed_seconds": 10.13
+    },
+    {
+      "n": 500,
+      "rejection_rate": 1.0,
+      "elapsed_seconds": 27.01
+    }
+  ]
+}
